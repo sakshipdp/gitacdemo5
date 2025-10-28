@@ -4,9 +4,9 @@ import pandas as pd
 import os
 
 token = os.getenv("API_TOKEN")
-
-response = requests.get("https://jsonplaceholder.typicode.com/users")
-data = response.json()
-df = pd.DataFrame(data)
-df = df [["id", "name"]]
-print(df)
+print(f"Token : {token}")
+#esponse = requests.get("https://jsonplaceholder.typicode.com/users")
+#ata = response.json()
+#f = pd.DataFrame(data)
+#f = df [["id", "name"]]
+#rint(df)
